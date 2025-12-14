@@ -1,8 +1,8 @@
 <?php
 // اتصال قاعدة البيانات
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root'); // غيرها حسب إعداداتك
-define('DB_PASS', ''); // غيرها حسب إعداداتك
+define('DB_USER', 'root'); 
+define('DB_PASS', ''); 
 define('DB_NAME', 'job_search_db');
 
 // إنشاء الاتصال
@@ -15,3 +15,4 @@ if (!$conn) {
 
 mysqli_set_charset($conn, "utf8");
 ?>
+
